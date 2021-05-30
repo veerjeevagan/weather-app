@@ -1,8 +1,6 @@
 form {
-    
     margin: 2rem 0;
     text-align: center;
-
 }
 
 .input-text {
@@ -15,4 +13,8 @@ form {
     padding: 5px 10px ;
     border-style: none;
     margin: 10px;
+}
+
+input{
+    font-family: 'Quicksand' ,sans-serif;
 }
