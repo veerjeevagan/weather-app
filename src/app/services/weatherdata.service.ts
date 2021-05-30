@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http'
 import { Injectable } from '@angular/core';
 import {forkJoin } from 'rxjs';
 
-let serviceUrl: String = 'http://api.weatherapi.com/v1'
+let serviceUrl: String = 'https://api.weatherapi.com/v1'
 let apiKey: String = 'c3264ea7075f411ab81131540212305'  // insert your API key here
 
 @Injectable({
