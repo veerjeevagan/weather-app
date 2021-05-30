@@ -98,6 +98,9 @@ li{
     margin: 1rem;
 }
 
+.fa-arrow-down{
+    padding: 0 0 0 5px;
+}
 
 .submit {
     color: white;
