@@ -69,11 +69,10 @@ export class DisplayComponent implements OnInit {
     }
     worksheet.mergeCells('B1', 'D4');
     let titleRow = worksheet.getCell('C1');
-    titleRow.value = "Weather data"
+    titleRow.value = exceldata.location +" Weather data"
     titleRow.font = {
       name: 'Calibri',
       size: 16,
-      underline: 'single',
       bold: true,
       color: { argb: '0085A3' }
     }
